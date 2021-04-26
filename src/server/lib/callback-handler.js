@@ -10,7 +10,7 @@ import dispatchEvent from '../lib/dispatch-event'
  * signed in and authenticated with an existing valid account.
  *
  * All verification (e.g. OAuth flows or email address verificaiton flows) are
- * done prior to this handler being called to avoid additonal complexity in this
+ * done prior to this handler being called to avoid additional complexity in this
  * handler.
  */
 export default async function callbackHandler (sessionToken, profile, providerAccount, options) {
